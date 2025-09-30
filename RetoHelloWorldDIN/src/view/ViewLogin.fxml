@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="265.0" prefWidth="501.0" styleClass="background" stylesheets="@../resources/css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLDocumentController">
+    <children>
+        <Button fx:id="buttonSQL" layoutX="69.0" layoutY="163.0" onAction="#loginSQL" prefHeight="31.0" prefWidth="148.0" style="-fx-background-color: lightblue;" stylesheets="@../resources/css/style.css" text="Login SQL">
+            <font>
+                <Font name="Arial Bold Italic" size="15.0" />
+            </font>
+        </Button>
+        <Label fx:id="lblContrasenia" layoutX="14.0" layoutY="106.0" minHeight="16" minWidth="69" text="Contraseña" textFill="WHITE">
+            <font>
+                <Font name="Arial Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="lblUsuario" layoutX="14.0" layoutY="70.0" minHeight="16" minWidth="69" text="Usuario" textFill="#e8dcdc">
+            <font>
+                <Font name="Arial Bold" size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtUsuario" layoutX="113.0" layoutY="65.0" promptText="Introduzca su usuario" />
+        <PasswordField fx:id="txtContrasenia" layoutX="113.0" layoutY="112.0" promptText="Introduzca contraseña" />
+        <Button fx:id="btnFichero" layoutX="227.0" layoutY="163.0" onAction="#loginFichero" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: lightblue;" stylesheets="@../resources/css/style.css" text="Login Fichero">
+            <font>
+                <Font name="Arial Bold Italic" size="15.0" />
+            </font>
+        </Button>
+
+    </children>
+</AnchorPane>

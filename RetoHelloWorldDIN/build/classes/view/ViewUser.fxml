@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="background-usuario" stylesheets="@../resources/css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label fx:id="labelUsuario" layoutX="288.0" layoutY="49.0" prefHeight="39.0" prefWidth="271.0" style="-fx-background-color: lightblue;" stylesheets="@../resources/css/style.css">
+            <font>
+                <Font name="Arial" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="lblNombre" layoutX="174.0" layoutY="118.0" prefHeight="48.0" prefWidth="157.0" text="Nombre" textAlignment="CENTER" textFill="#f8f8f8">
+            <font>
+                <Font name="Arial Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelApellido" layoutX="288.0" layoutY="181.0" prefHeight="39.0" prefWidth="271.0" style="-fx-background-color: lightblue;" stylesheets="@../resources/css/style.css">
+            <font>
+                <Font name="Arial" size="24.0" />
+            </font>
+        </Label>
+        
+        <Label fx:id="labelDireccion" layoutX="288.0" layoutY="305.0" prefHeight="39.0" prefWidth="271.0" style="-fx-background-color: lightblue;" stylesheets="@../resources/css/style.css">
+            <font>
+                <Font name="Arial" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="labelEmail" layoutX="288.0" layoutY="244.0" prefHeight="39.0" prefWidth="271.0" style="-fx-background-color: lightblue;" stylesheets="@../resources/css/style.css">
+            <font>
+                <Font name="Arial" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="lblUsuario" layoutX="180.0" layoutY="49.0" prefHeight="48.0" prefWidth="157.0" text="Usuario" textAlignment="CENTER" textFill="#f8f8f8">
+            <font>
+                <Font name="Arial Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="lblEmail" layoutX="174.0" layoutY="240.0" prefHeight="48.0" prefWidth="157.0" text="Email" textAlignment="CENTER" textFill="#f8f8f8">
+            <font>
+                <Font name="Arial Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="lblDireccion" layoutX="174.0" layoutY="301.0" prefHeight="48.0" prefWidth="157.0" text="Direccion" textAlignment="CENTER" textFill="#f8f8f8">
+            <font>
+                <Font name="Arial Bold" size="24.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
